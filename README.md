@@ -3,8 +3,8 @@ Projeto inicial para outros projetos com [__vue3__](https://vuejs.org/) e [__boo
 
 O esperado de um projeto incial:
 - [x] Mudar de tema (claro / escuro)
-- [x] Fazer o auto do tema ???
-- [x] Multi línguas ([vue-i18n](https://vue-i18n.intlify.dev/))
+- [ ] Fazer o auto do tema ???
+- [ ] Multi línguas ([vue-i18n](https://vue-i18n.intlify.dev/))
 - [ ] Pensar no site com a pasta layouts?!?
 - [ ] Busca interna ??? [algolia](https://www.algolia.com/developers) [typesense](https://typesense.org/)
 - [ ] Blog / Notícias ???
@@ -15,7 +15,7 @@ O esperado de um projeto incial:
 - [danielschmitz - vue3-book](https://github.com/danielschmitz/kitchen-app-vue3-book)
 - [danielschmitz - livro vue3 grátis](https://leanpub.com/book-vue-br)
 
-## Preparando o ambiente de desenvolvimento (vscode):
+## Prparando o ambiente de desenvolvimento (vscode):
 Instalar o [vscode](https://code.visualstudio.com/Download) com os plugins:
 - [Vue - official - Prioridade!!!](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
@@ -25,9 +25,9 @@ Instalar o [vscode](https://code.visualstudio.com/Download) com os plugins:
 
 
 
-## Como começar
+## Get Started
 
-Crie um novo repositório a partir do modelo e use seu gerenciador de pacotes favorito para instalá-lo. Utilizando NPM os comandos são:
+Make a new repository from the template and use your favorite package manager to install it. Mine is NPM and the commands are:
 
 ### Install
 
@@ -35,7 +35,7 @@ Crie um novo repositório a partir do modelo e use seu gerenciador de pacotes fa
 npm install
 ```
 
-### Ambiente de Desenvolvimento
+### Development
 
 ```bash
 npm run dev
@@ -43,7 +43,7 @@ npm run dev
 
 ### Build
 
-Certifique-se de que todas as configurações revisadas sobre o script de construção estejam no arquivo package.json e nos arquivos .env.[mode].
+Make sure, that reviewed all settings about the build script are in the package.json file and in the .env.[mode] files.
 
 ```bash
 npm run build
