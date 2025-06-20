@@ -1,25 +1,24 @@
 <script setup lang="ts">
-import { useI18n } from "vue-i18n";
-import Navbar from "@/components/NavBar.vue"; // Importe o Navbar.vue
-import AppCarousel from "@/components/AppCarousel.vue"; // Renomeie Carousel para AppCarousel
+import { ref } from 'vue'
+import { useI18n } from 'vue-i18n'
+import Navbar from '@/components/NavBar.vue'
+import AppCarousel from '@/components/AppCarousel.vue'
 
-const { t } = useI18n(); // Remova 'locale' pois não é usado
+const { t } = useI18n()
+
+const darkMode = ref(false)
+
+const toggleDarkMode = () => {
+  darkMode.value = !darkMode.value
+}
 </script>
 
 <template>
-  <div id="app">
-    <!-- Exibição do texto traduzido (mantido) -->
+  <div :class="darkMode ? 'bg-dark text-light min-vh-100' : 'bg-light text-dark min-vh-100'">
     <h1>{{ t("welcome") }}</h1>
-
-    <!-- Barra de navegação com o dropdown de idioma estilizado, links e modo escuro -->
-    <Navbar />
-
-    <!-- Adiciona o carrossel -->
-    <AppCarousel />
-    <!-- Atualize para AppCarousel -->
-
-    <!-- Renderiza as rotas (HomeView, AboutView, ContactsView, etc.) -->
-    <RouterView />
+    <Navbar :darkMode="darkMode" @toggle-dark-mode="toggleDarkMode" />
+    <AppCarousel :darkMode="darkMode" />
+    <RouterView :darkMode="darkMode" />
   </div>
 </template>
 
@@ -41,5 +40,16 @@ h1 {
 /* Ajuste adicional para o carrossel */
 .carousel {
   margin: 20px auto; /* Adiciona um espaço acima e abaixo do carrossel */
+}
+.bg-dark {
+  background-color: #121212;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
 }
 </style>

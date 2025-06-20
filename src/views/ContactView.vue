@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import { useI18n } from 'vue-i18n';
+import Footer from "@/components/FooterBar.vue";
 
 const { t } = useI18n();
 const nome = ref("");
@@ -48,6 +49,8 @@ const enviarFormulario = () => {
       </form>
     </div>
   </div>
+  
+  <Footer />
 </template>
 <style scoped>
 h2 {

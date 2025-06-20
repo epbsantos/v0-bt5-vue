@@ -1,12 +1,12 @@
 <template>
-  <footer class="footer container-fluid">
+  <footer class="footer container-fluid bg-body-tertiary text-body">
     <div class="footer-content">
       <div class="footer-section">
         <h4>{{ $t("footer.title") }}</h4>
         <p>{{ $t("footer.description") }}</p>
         <ul class="social-links">
           <li v-for="(link, index) in socialLinks" :key="index">
-            <a :href="link.url" target="_blank">
+            <a :href="link.url" target="_blank" class="link-primary">
               <img :src="link.icon" :alt="link.name" />
             </a>
           </li>
@@ -17,19 +17,14 @@
         <h4>{{ $t("footer.contact") }}</h4>
         <ul class="contact-info">
           <li>
-            <a
-              href="https://maps.app.goo.gl/2Qv9AmF8pPXBYeFK9"
-              target="_blank"
-              >{{ $t("footer.address") }}</a
-            >
+            <a href="https://maps.app.goo.gl/2Qv9AmF8pPXBYeFK9" target="_blank" class="link-primary">{{
+              $t("footer.address") }}</a>
           </li>
           <li>
-            <a href="tel:+55453379-6800">{{ $t("footer.phone") }}</a>
+            <a href="tel:+55453379-6800" class="link-primary">{{ $t("footer.phone") }}</a>
           </li>
           <li>
-            <a href="mailto:epsantos@utfpr.edu.br"
-              >{{ $t("footer.email") }}</a
-            >
+            <a href="mailto:epsantos@utfpr.edu.br" class="link-primary">{{ $t("footer.email") }}</a>
           </li>
         </ul>
       </div>
@@ -77,9 +72,7 @@ const socialLinks = [
 
 <style scoped>
 .footer {
-  background-color: #151515;
   padding: 30px 0;
-  color: white;
   font-family: "Oswald", sans-serif;
 }
 
@@ -135,12 +128,7 @@ p {
 }
 
 a {
-  color: white;
   text-decoration: none;
   transition: color 0.3s;
-}
-
-a:hover {
-  color: #42b983;
 }
 </style>
