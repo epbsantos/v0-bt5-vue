@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Footer from "@/components/FooterBar.vue";
 import { useI18n } from 'vue-i18n';
 const { t } = useI18n();
 </script>
@@ -11,6 +12,7 @@ const { t } = useI18n();
       <p v-html="t('aboutPage.paragraph3')"></p>
     </div>
   </div>
+  <Footer/>
 </template>
 <style scoped>
 h1 {

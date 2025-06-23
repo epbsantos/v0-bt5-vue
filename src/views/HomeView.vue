@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main :class="props.darkMode ? 'bg-dark text-light' : 'bg-light text-dark'">
     <div class="container py-5">
       <h1>{{ t('homePage.title') }}</h1>
       <p>{{ t('homePage.welcomeMessage') }}</p>
@@ -9,13 +9,26 @@
 </template>
 
 <script setup lang="ts">
-import { useI18n } from 'vue-i18n';
+import { defineProps } from 'vue'
+import { useI18n } from 'vue-i18n'
 import Footer from "@/components/FooterBar.vue";
 
-const { t } = useI18n();
+const props = defineProps<{ darkMode: boolean }>()
+
+const { t } = useI18n()
 </script>
 
 <style scoped>
+.bg-dark {
+  background-color: #121212;
+  color: #eee;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
 h1 {
   font-family: "Oswald", serif;
   font-size: 2rem;
