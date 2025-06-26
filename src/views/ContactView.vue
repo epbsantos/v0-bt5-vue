@@ -14,7 +14,7 @@ const enviarFormulario = () => {
 };
 </script>
 <template>
-  <div class="container mt-5">
+  <div class="container mt-5 d-flex justify-content-center">
     <div class="contact-form">
       <h2 class="mb-4 text-start">{{ t('contactPage.title') }}</h2>
 
@@ -49,9 +49,10 @@ const enviarFormulario = () => {
       </form>
     </div>
   </div>
-  
+
   <Footer />
 </template>
+
 <style scoped>
 h2 {
   font-family: "Oswald", serif;
