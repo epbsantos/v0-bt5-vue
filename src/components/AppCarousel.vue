@@ -3,9 +3,9 @@ import { ref } from 'vue'
 
 const currentSlide = ref(0)
 const slides = [
-  { image: 'https://imgur.com/cfAFVYp.jpeg', title: 'UTFPR', description: 'UTFPR Entrada' },
-  { image: 'https://imgur.com/EqzHwzW.jpeg', title: 'A.A.A.T', description: 'TUT' },
-  { image: 'https://imgur.com/WrmGgEC.jpeg', title: 'UTFPR', description: 'UTFPR Bloco A' }
+  { image: 'https://i.imgur.com/8ddEVKl.png', title: 'UTFPR', description: 'UTFPR Campus Toledo' },
+  { image: 'https://i.imgur.com/N4ty2yv.jpeg', title: 'Tecnologia em Sistemas para Internet', description: 'Curso TSI' },
+  { image: 'https://i.imgur.com/03Ckqwm.jpeg', title: 'SAET', description: 'Semana Acadêmica' }
 ]
 
 const nextSlide = () => { currentSlide.value = (currentSlide.value + 1) % slides.length }

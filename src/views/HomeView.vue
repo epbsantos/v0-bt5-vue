@@ -2,7 +2,10 @@
   <main :class="props.darkMode ? 'bg-dark text-light' : 'bg-light text-dark'">
     <div class="container py-5">
       <h1>{{ t('homePage.title') }}</h1>
-      <p>{{ t('homePage.welcomeMessage') }}</p>
+      <p v-html="t('homePage.paragraph1')"></p>
+      <p v-html="t('homePage.paragraph2')"></p>
+      <p v-html="t('homePage.paragraph3')"></p>
+      <p v-html="t('homePage.paragraph4')"></p>
     </div>
     <Footer />
   </main>

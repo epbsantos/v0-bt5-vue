@@ -1,6 +1,6 @@
 {
   "pt": {
-    "welcome": "Bem-vindo ao nosso site!",
+    "welcome": "Bem-vindo ao site de TSI!",
     "language": "Idioma",
     "navbar": {
       "search": "Buscar",
@@ -37,10 +37,11 @@
       "es": "Espanhol"
     },
     "aboutPage": {
-      "title": "Sobre nós",
-      "paragraph1": "Este site foi desenvolvido como parte da disciplina <strong>Web Front-End II</strong> da UTFPR, utilizando Vue 3, Vite, TypeScript, Beercss e i18n.",
-      "paragraph2": "O projeto demonstra boas práticas de front-end, com suporte a múltiplos idiomas, formulário funcional e responsividade.",
-      "paragraph3": "Desenvolvido por <strong>Vinícius Tabarão</strong>, aluno UTFPR."
+      "title": "Sobre o curso",
+      "paragraph1": "O curso de Tecnologia em Sistemas para Internet (TSI) da UTFPR – Campus Toledo, iniciado em 2014, é um tecnólogo de 3 anos de duração (6 semestres), totalmente gratuito e reconhecido pelo MEC desde 2017.",
+      "paragraph2": "Focado no eixo de Informação e Comunicação, o TSI forma profissionais capazes de projetar, implementar e gerenciar sistemas web, incluindo interfaces, aplicativos, marketing eletrônico e intranets.",
+      "paragraph3": "A matriz curricular, com cerca de 2.400 horas, inclui atividades práticas, estágio supervisionado (360h) e um Trabalho de Conclusão de Curso (TCC).",
+      "paragraph4": "O curso oferece laboratórios de informática com dezenas de estações equipadas para desenvolvimento, além de estrutura de apoio, como biblioteca física e digital, salas de estudo individual e coletivo . Em 2023, o TSI alcançou nota 4 (escala de 1 a 5) na avaliação do MEC, destacando-se pela organização didático-pedagógica, corpo docente qualificado (todos com título de mestre ou doutor e produção científica relevante) e pela infraestrutura de qualidade."
     },
     "contactPage": {
       "title": "Fale conosco",
@@ -53,8 +54,12 @@
       }
     },
     "homePage": {
-      "title": "Página Inicial",
-      "welcomeMessage": "Bem-vindo à página principal do nosso site."
+      "title": "O que é a UTFPR?",
+      "paragraph1": "A Universidade Tecnológica Federal do Paraná (UTFPR) é uma instituição pública de ensino superior reconhecida nacionalmente pela excelência em educação, pesquisa e inovação tecnológica. Fundada originalmente como Escola de Aprendizes Artífices, em 1909, passou por diversas transformações até se tornar universidade tecnológica em 2005, sendo a primeira do Brasil com esse título.",
+      "paragraph2": "Com sede em Curitiba, a UTFPR está presente em diversas cidades do Paraná, contando com 13 campi distribuídos pelo estado. Essa ampla presença regional contribui para o desenvolvimento local, promovendo acesso à educação superior de qualidade em diferentes áreas do conhecimento, com destaque para as engenharias, ciências exatas e tecnologia da informação.",
+      "paragraph3":"A universidade oferece cursos de graduação, mestrado e doutorado, além de programas de extensão e pesquisa científica. Seu modelo educacional é voltado para a formação técnica e tecnológica, com foco na prática, na inovação e na aproximação com o setor produtivo. Esse perfil faz da UTFPR uma referência em formação profissional alinhada às demandas do mercado e da sociedade.",
+      "paragraph4":"Além da qualidade acadêmica, a UTFPR valoriza a inclusão, a responsabilidade social e o desenvolvimento sustentável, promovendo projetos que beneficiam comunidades e incentivam o empreendedorismo. Seu compromisso com a ciência e com a formação cidadã contribui para o avanço tecnológico do país e para a construção de um futuro mais justo e inovador."
+
     }
   },
 

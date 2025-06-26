@@ -10,6 +10,7 @@ const { t } = useI18n();
       <p v-html="t('aboutPage.paragraph1')"></p>
       <p v-html="t('aboutPage.paragraph2')"></p>
       <p v-html="t('aboutPage.paragraph3')"></p>
+      <p v-html="t('aboutPage.paragraph4')"></p>
     </div>
   </div>
   <Footer/>
