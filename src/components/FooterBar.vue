@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer container-fluid bg-body-tertiary text-body">
+  <footer class="footer container-fluid bg-body-tertiary custom-footer text-body">
     <div class="footer-content">
       <div class="footer-section">
         <h4>{{ $t("footer.title") }}</h4>
@@ -92,6 +92,7 @@ const socialLinks = [
   text-align: center;
 }
 
+
 h4 {
   margin-bottom: 10px;
 }
@@ -127,8 +128,16 @@ p {
   margin-bottom: 10px;
 }
 
-a {
-  text-decoration: none;
-  transition: color 0.3s;
+a.link-primary{
+  color: inherit !important;
+  text-decoration: none !important;
+  transition: color 0.3s !important;
 }
+
+/* Fundo cinza claro no modo claro */
+[data-bs-theme="light"] .custom-footer {
+  background-color: #e9ecef !important; /* Cinza claro */
+}
+
+
 </style>

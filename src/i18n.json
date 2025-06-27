@@ -49,6 +49,8 @@
         "namePlaceholder": "Digite seu nome",
         "emailLabel": "Email",
         "emailPlaceholder": "email@exemplo.com",
+        "subjectLabel": "Assunto",
+        "subjectPlaceholder": "Inicie o assunto!",
         "submitButton": "Enviar"
       }
     },
@@ -111,6 +113,8 @@
         "namePlaceholder": "Enter your name",
         "emailLabel": "Email",
         "emailPlaceholder": "email@example.com",
+        "subjectLabel": "Subject",
+        "subjectPlaceholder": "Start the subject!",
         "submitButton": "Submit"
       }
     },
@@ -173,6 +177,8 @@
         "namePlaceholder": "Escriba su nombre",
         "emailLabel": "Correo electrónico",
         "emailPlaceholder": "email@ejemplo.com",
+        "subjectLabel": "Asunto",
+        "subjectPlaceholder": "Ingrese el asunto!",
         "submitButton": "Enviar"
       }
     },

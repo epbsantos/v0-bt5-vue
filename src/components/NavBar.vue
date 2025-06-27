@@ -44,8 +44,7 @@ const filteredRoutes = computed(() =>
 // Detecta tema do sistema e aplica tema salvo no localStorage (só se não for controlado via props)
 const detectThemeFromSystem = () => {
   if (typeof props.darkMode === "undefined") {
-    const dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    emit("toggle-dark-mode", dark);
+    emit("toggle-dark-mode");
   }
 };
 
@@ -81,7 +80,8 @@ const toggleDarkMode = () => {
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top" :class="props.darkMode ? 'navbar-dark bg-dark' : 'navbar-light bg-light'">
+  <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top"
+    :class="props.darkMode ? 'navbar-dark navbar_dark_custom' : 'navbar-light navbar-light-custom'">
     <div class="container">
       <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
         aria-expanded="false" :aria-label="t('navbar.toggleNavigation')">
@@ -104,10 +104,10 @@ const toggleDarkMode = () => {
 
         <!-- busca + idioma + switch tema -->
         <div class="d-flex align-items-center">
-          <input v-model="query" :placeholder="t('navbar.search')" class="form-control me-2" :class="props.darkMode ? 'bg-dark text-light' : ''" />
+          <input v-model="query" :placeholder="t('navbar.search')" class="form-control me-2"/>
 
           <!-- dropdown resultados -->
-          <ul v-if="query && filteredRoutes.length" class="search-results" :class="props.darkMode ? 'dark-results' : ''">
+          <ul v-if="query && filteredRoutes.length" class="search-results">
             <li v-for="r in filteredRoutes" :key="r.path">
               {{ t(`routes.${r.children[0].name.toLowerCase()}`) }}
             </li>
@@ -134,7 +134,8 @@ const toggleDarkMode = () => {
 
           <!-- dark-mode switch -->
           <div class="form-check form-switch ms-3">
-            <input id="darkModeSwitch" class="form-check-input" type="checkbox" :checked="props.darkMode" @change="toggleDarkMode" />
+            <input id="darkModeSwitch" class="form-check-input" type="checkbox" :checked="props.darkMode"
+              @change="toggleDarkMode" />
             <label class="form-check-label" for="darkModeSwitch">
               {{ t("navbar.darkMode") }}
             </label>
@@ -150,11 +151,33 @@ const toggleDarkMode = () => {
   padding: 0.5rem 1rem;
 }
 
+.navbar-light-custom {
+  background-color: #FFBE00 !important; 
+}
+
+.navbar_dark_custom {
+  background-color: #FFBE00 !important;
+}
+
+input.form-control {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: none !important;
+  box-shadow: none !important; 
+  outline: none !important;    
+}
+
+input.form-control::placeholder {
+  color: #000 !important;
+  opacity: 1 !important; 
+}
+
 /* === links do menu: hover + ativo === */
 .nav-link {
   position: relative;
   padding: 0.5rem 0.75rem;
   transition: color 0.3s;
+  color: #000 !important;
 }
 
 .nav-link::after {
@@ -204,7 +227,6 @@ const toggleDarkMode = () => {
 .dropdown-menu {
   min-width: 150px;
   background: #343a40;
-  border: 1px solid #495057;
   display: none;
 }
 
@@ -226,7 +248,6 @@ const toggleDarkMode = () => {
   top: 100%;
   left: 0;
   background: #fff;
-  border: 1px solid #ccc;
   max-height: 200px;
   overflow-y: auto;
   list-style: none;
@@ -238,15 +259,43 @@ const toggleDarkMode = () => {
 
 .dark-results {
   background: #222;
-  border-color: #555;
   color: #ddd;
 }
 
-[data-bs-theme="light"] .form-check-label {
-  color: #343a40;
+.form-check.form-switch {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+  color: #000 !important;
 }
 
-[data-bs-theme="dark"] .form-check-label {
-  color: #fff;
+.language-selector .btn {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: 1px solid #ccc !important;
 }
+
+.language-selector .btn:hover {
+  background-color: #f1f1f1 !important;
+  color: #000 !important;
+}
+
+.language-selector .dropdown-menu {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: 1px solid #ccc !important;
+}
+
+.language-selector .dropdown-item {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+.language-selector .dropdown-item:hover {
+  background-color: #f1f1f1 !important;
+  color: #000 !important;
+}
+
+
 </style>
