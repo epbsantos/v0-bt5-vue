@@ -86,4 +86,4 @@ Certifique-se de que todas as configurações revisadas sobre o script de constr
 npm run build
 ```
 ### Documentação
-Foram adicionados e removidos textos no arquivo json, alteração na página sobre nós, remoção de tag's sem valor, e também definição de um link na imagem do footer. Criação de uma function para verificar se os campos estão preenchidos, e retorno de feedback para cada envio, retornando sucesso ou erro através de um boleano, tipagem e formatação dos dados inseridos no formulário
+Foram adicionados e removidos textos no arquivo json, alteração na página sobre nós, remoção de tag's sem valor, e também definição de um link na imagem do footer. Criação de uma function para verificar se os campos estão preenchidos, e retorno de feedback para cada envio, retornando sucesso ou erro através de um boleano, tipagem e formatação dos dados inseridos no formulário.
