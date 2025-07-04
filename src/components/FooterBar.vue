@@ -1,5 +1,5 @@
 <template>
-  <footer class="pt-4 border-top mt-5 bg-body-secondary text-body">
+  <footer class="pt-4 border-top mt-5 bg-body-secondary text-body mt-auto">
     <div class="container py-4">
       <div class="row">
         <!-- Institucional -->

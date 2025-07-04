@@ -4,6 +4,8 @@ import App from "@/App.vue";
 import { router } from "@/router";
 import "bootstrap/scss/bootstrap.scss";
 import translateFile from "@/i18n.json";
+import ChatBot from '@/components/ChatBot.vue'
+
 
 // Definir as traduções para o idioma
 const messages = translateFile;
@@ -32,5 +34,6 @@ const i18n = createI18n({
 });
 
 const app = createApp(App).use(router).use(i18n);
+app.component('ChatBot', ChatBot)   // registro global
 
 router.isReady().then(() => app.mount("#app"));
