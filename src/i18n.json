@@ -392,7 +392,29 @@
     "aboutPage": {
       "title": "À propos de nous",
       "paragraph1": "Ce site a été développé dans le cadre du cours <strong>Web Front-End II</strong> de l'UTFPR, en utilisant Vue 3, Vite, TypeScript, Beercss et i18n.",
-      "paragraph2": "Le projet démontre de bonnes pratiques de développement front-end, avec prise en charge multilingue, un formulaire fonctionnel et une interface réactive."
+      "paragraph2": "Le projet démontre de bonnes pratiques de développement front-end, avec prise en charge multilingue, un formulaire fonctionnel et une interface réactive.",
+      "title2": "Mission",
+      "paragraph3": "Développer une éducation technologique d'excellence, construire et partager les connaissances orientées vers la résolution des défis réels de la société.",
+      "title3": "Vision",
+      "paragraph4": "Être une université reconnue internationalement pour son rôle dans le développement régional et national durable.",
+      "title4": "Éthique",
+      "paragraph5": "Compter sur des étudiants et un personnel agissant de manière éthique, engagés dans la quête de connaissance, la vérité scientifique et l'impartialité.",
+      "title5": "Technologie et humanisme",
+      "paragraph6": "Considérer la technologie comme une composante inhérente à la société, où les aspects humains font partie intégrante du problème et de la solution dans tout développement technologique.",
+      "title6": "Développement humain",
+      "paragraph7": "Former des citoyens critiques, éthiques et autonomes.",
+      "title7": "Interaction avec l'environnement",
+      "paragraph8": "Conduire notre mission de manière responsable, solidaire et coopérative avec la société, les gouvernements et les organisations.",
+      "title8": "Entrepreneuriat et innovation",
+      "paragraph9": "Opérer des changements par une démarche entrepreneuriale.",
+      "title9": "Excellence",
+      "paragraph10": "Promouvoir l'amélioration continue des activités académiques, des pratiques de gestion et de nos relations avec la société.",
+      "title10": "Durabilité",
+      "paragraph11": "Veiller à ce que toutes les actions soient durables sur les plans social, environnemental et économique.",
+      "title11": "Diversité et inclusion",
+      "paragraph12": "Promouvoir l'éducation technologique en respectant et valorisant la diversité et le potentiel de chaque personne.",
+      "title12": "Démocratie et transparence",
+      "paragraph13": "Valoriser la participation démocratique et la transparence à tous les niveaux de l'UTFPR, en renforçant l'implication des communautés universitaires et externes dans la conception, la prise de décision, la mise en œuvre et l'évaluation des actions de l'université."
       
     },
     "contactPage": {
