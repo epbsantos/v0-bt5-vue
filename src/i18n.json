@@ -14,7 +14,8 @@
       "contact": "Contato",
       "contacts": "Contato",
       "search": "Buscar",
-      "news": "Notícias"
+      "news": "Notícias",
+      "cards": "Cards"
     },
     "footer": {
       "title": "Universidade Tecnológica Federal do Paraná (UTFPR)",
@@ -109,7 +110,8 @@
       "about": "About",
       "contact": "Contact",
       "contacts": "Contact",
-      "news": "News"
+      "news": "News",
+      "cards": "Cards"
     },
     "footer": {
       "title": "Federal University of Technology – Paraná (UTFPR)",
@@ -296,7 +298,8 @@
       "contact": "Contact",
       "contacts": "Contact",
       "search": "Rechercher",
-      "news": "Nouvelles"
+      "news": "Nouvelles",
+      "cards": "Cards"
     },
     "footer": {
       "title": "Université Fédérale de Technologie du Paraná (UTFPR)",

@@ -54,6 +54,16 @@ export const routes = [
       },
     ],
   },
+  {
+    path: `${baseUrl}/cards`,
+    children: [
+      {
+        path: "",
+        name: "Cards",
+        component: () => import("@/views/CardsView.vue"),
+      },
+    ],
+  },
 ];
 
 export const router = createRouter({
