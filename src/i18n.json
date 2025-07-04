@@ -46,7 +46,11 @@
       "paragraph1": "Este site foi desenvolvido como parte da disciplina <strong>Web Front-End II</strong> da UTFPR, utilizando Vue 3, Vite, TypeScript, Beercss e i18n.",
       "paragraph2": "O projeto demonstra boas práticas de front-end, com suporte a múltiplos idiomas, formulário funcional e responsividade.",
       "title2": "Missão",
-      "paragraph3": "Desenvolver a educação tecnológica de excelência, construir e compartilhar o conhecimento voltado à solução dos reais desafios da sociedade."
+      "paragraph3": "Desenvolver a educação tecnológica de excelência, construir e compartilhar o conhecimento voltado à solução dos reais desafios da sociedade.",
+      "title3":"Visão",
+      "paragraph4":"Ser uma universidade reconhecida internacionalmente pela importância de sua atuação em prol do desenvolvimento regional e nacional sustentável.",
+      "title4": "Ética",
+      "paragraph5": "Contar com estudantes e servidores eticamente responsáveis, inseridos em um contexto de busca do conhecimento e de dedicação à verdade científica e à imparcialidade."
     },
     "contactPage": {
       "title": "Fale conosco",
