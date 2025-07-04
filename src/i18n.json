@@ -43,7 +43,9 @@
     "aboutPage": {
       "title": "Sobre a nós",
       "paragraph1": "Este site foi desenvolvido como parte da disciplina <strong>Web Front-End II</strong> da UTFPR, utilizando Vue 3, Vite, TypeScript, Beercss e i18n.",
-      "paragraph2": "O projeto demonstra boas práticas de front-end, com suporte a múltiplos idiomas, formulário funcional e responsividade."
+      "paragraph2": "O projeto demonstra boas práticas de front-end, com suporte a múltiplos idiomas, formulário funcional e responsividade.",
+      "tileutfpr": "Sobre a UTFPR",
+      "paragrafoutfpr": "A UTFPR (Universidade Tecnológica Federal do Paraná) é a primeira universidade tecnológica do Brasil, com raízes que remontam a 1909, quando foi criada a Escola de Aprendizes Artífices em Curitiba"
       
     },
     "contactPage": {
@@ -137,7 +139,10 @@
     "aboutPage": {
       "title": "About Us",
       "paragraph1": "This website was developed as part of the <strong>Web Front-End II</strong> course at UTFPR, using Vue 3, Vite, TypeScript, Beercss, and i18n.",
-      "paragraph2": "The project demonstrates front-end best practices, with support for multiple languages, a functional form, and responsiveness."
+      "paragraph2": "The project demonstrates front-end best practices, with support for multiple languages, a functional form, and responsiveness.",
+       "tileutfpr": "About utfpr",
+      "paragrafoutfpr": "UTFPR (Federal Technological University of Paraná) is the first technological university in Brazil, with roots dating back to 1909, when the School of Apprentice Craftsmen was created in Curitiba"
+      
     },
     "contactPage": {
       "title": "Contact Us",
@@ -230,7 +235,9 @@
     "aboutPage": {
       "title": "Sobre Nosotros",
       "paragraph1": "Este sitio web fue desarrollado como parte de la asignatura <strong>Web Front-End II</strong> de la UTFPR, utilizando Vue 3, Vite, TypeScript, Beercss e i18n.",
-      "paragraph2": "El proyecto demuestra buenas prácticas de front-end, con soporte para múltiples idiomas, un formulario funcional y responsividad."
+      "paragraph2": "El proyecto demuestra buenas prácticas de front-end, con soporte para múltiples idiomas, un formulario funcional y responsividad.",
+       "tileutfpr": "Acerca de la UTFPR",
+      "paragrafoutfpr": "La UTFPR (Universidad Tecnológica Federal de Paraná) es la primera universidad tecnológica de Brasil, con raíces que se remontan a 1909, cuando se creó la Escuela de Aprendices de Artesanos en Curitiba."
     },
     "contactPage": {
       "title": "Contáctenos",
@@ -324,7 +331,9 @@
     "aboutPage": {
       "title": "À propos de nous",
       "paragraph1": "Ce site a été développé dans le cadre du cours <strong>Web Front-End II</strong> de l'UTFPR, en utilisant Vue 3, Vite, TypeScript, Beercss et i18n.",
-      "paragraph2": "Le projet démontre de bonnes pratiques de développement front-end, avec prise en charge multilingue, un formulaire fonctionnel et une interface réactive."
+      "paragraph2": "Le projet démontre de bonnes pratiques de développement front-end, avec prise en charge multilingue, un formulaire fonctionnel et une interface réactive.",
+       "tileutfpr": "À propos de l’UTFPR",
+      "paragrafoutfpr": "L'UTFPR (Université Technologique Fédérale du Paraná) est la première université technologique du Brésil, dont les racines remontent à 1909, lorsque l'École des Apprentis Artisans a été créée à Curitiba."
       
     },
     "contactPage": {
