@@ -8,6 +8,8 @@ const { t } = useI18n();
     <div class="about-text">
       <p v-html="t('aboutPage.paragraph1')"></p>
       <p v-html="t('aboutPage.paragraph2')"></p>
+      <h1 class="mb-4 text-start">{{ t("aboutPage.title2") }}</h1>
+      <p v-html="t('aboutPage.paragraph3')"></p>
     </div>
   </div>
 </template>

@@ -44,8 +44,9 @@
     "aboutPage": {
       "title": "Sobre a nós",
       "paragraph1": "Este site foi desenvolvido como parte da disciplina <strong>Web Front-End II</strong> da UTFPR, utilizando Vue 3, Vite, TypeScript, Beercss e i18n.",
-      "paragraph2": "O projeto demonstra boas práticas de front-end, com suporte a múltiplos idiomas, formulário funcional e responsividade."
-      
+      "paragraph2": "O projeto demonstra boas práticas de front-end, com suporte a múltiplos idiomas, formulário funcional e responsividade.",
+      "title2": "Missão",
+      "paragraph3": "Desenvolver a educação tecnológica de excelência, construir e compartilhar o conhecimento voltado à solução dos reais desafios da sociedade."
     },
     "contactPage": {
       "title": "Fale conosco",
