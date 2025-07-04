@@ -9,6 +9,10 @@ const { t } = useI18n();
       <p v-html="t('aboutPage.paragraph1')"></p>
       <p v-html="t('aboutPage.paragraph2')"></p>
     </div>
+        <h1 class="mb-4 text-start">{{ t("aboutPage.tileutfpr") }}</h1>
+    <div class="about-text">
+      <p v-html="t('aboutPage.paragrafoutfpr')"></p>
+    </div>
   </div>
 </template>
 <style scoped>
