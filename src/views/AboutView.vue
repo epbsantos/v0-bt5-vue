@@ -14,6 +14,22 @@ const { t } = useI18n();
       <p v-html="t('aboutPage.paragraph4')"></p>
       <h2 class="mt-4">{{ t("aboutPage.title4") }}</h2>
       <p v-html="t('aboutPage.paragraph5')"></p>
+      <h2 class="mt-4">{{ t("aboutPage.title5") }}</h2>
+      <p v-html="t('aboutPage.paragraph6')"></p>
+      <h2 class="mt-4">{{ t("aboutPage.title6") }}</h2>
+      <p v-html="t('aboutPage.paragraph7')"></p>
+      <h2 class="mt-4">{{ t("aboutPage.title7") }}</h2>
+      <p v-html="t('aboutPage.paragraph8')"></p>
+      <h2 class="mt-4">{{ t("aboutPage.title8") }}</h2>
+      <p v-html="t('aboutPage.paragraph9')"></p>
+      <h2 class="mt-4">{{ t("aboutPage.title9") }}</h2>
+      <p v-html="t('aboutPage.paragraph10')"></p>
+      <h2 class="mt-4">{{ t("aboutPage.title10") }}</h2>
+      <p v-html="t('aboutPage.paragraph11')"></p>
+      <h2 class="mt-4">{{ t("aboutPage.title11") }}</h2>
+      <p v-html="t('aboutPage.paragraph12')"></p>
+       <h2 class="mt-4">{{ t("aboutPage.title12") }}</h2>
+      <p v-html="t('aboutPage.paragraph13')"></p>
     </div>
   </div>
 </template>
