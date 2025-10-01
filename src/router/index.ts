@@ -64,6 +64,16 @@ export const routes = [
       },
     ],
   },
+  {
+  path: `${baseUrl}/courses`, 
+  children: [
+    {
+      path: "",
+      name: "Courses",
+      component: () => import("@/views/CoursesView.vue"),
+    },
+  ],
+  },
 ];
 
 export const router = createRouter({
