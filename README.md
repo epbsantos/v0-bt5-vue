@@ -87,18 +87,3 @@ npm run build
 ```
 ### Documentação
 Foram adicionados e removidos textos no arquivo json, alteração na página sobre nós, remoção de tag's sem valor, e também definição de um link na imagem do footer. Criação de uma function para verificar se os campos estão preenchidos, e retorno de feedback para cada envio, retornando sucesso ou erro através de um boleano, tipagem e formatação dos dados inseridos no formulário.
-
-
----
-
-## Minha Contribuição (Por: edusobota)
-
-Esta contribuição teve como objetivo principal a expansão e melhoria do projeto, com foco em adicionar novas funcionalidades e internacionalizar o conteúdo.
-
-As seguintes alterações foram implementadas:
-
-* **Nova Página de Cursos:** Foi criada uma página inteiramente nova para listar os cursos da UTFPR. A página utiliza um design customizado e responsivo com cards, e os dados são carregados dinamicamente com Vue.
-
-* **Internacionalização (i18n):** Todo o conteúdo da nova página de Cursos foi traduzido. Além disso, o suporte para os idiomas **Inglês**, **Espanhol** e **Francês** foi adicionado em todo o site.
-
-* **Correção de Layout:** Foi resolvido um problema no layout principal (`App.vue`), onde um título de "Boas-vindas" era exibido em todas as páginas. O título foi movido para a página inicial, garantindo que cada rota exiba apenas seu próprio conteúdo.
