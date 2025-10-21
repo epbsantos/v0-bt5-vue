@@ -1,8 +1,13 @@
-import { createRouter, createWebHistory } from "vue-router";
+import {
+  createRouter,
+  createWebHistory,
+  type RouteRecordRaw,
+} from "vue-router";
 
-//const baseUrl = import.meta.env.VITE_BUILD_ADDRESS;
-const baseUrl = "";
-export const routes = [
+//const baseUrl = import.meta.env.VITE_BUILD_ADDRESS; // Mantenha esta linha se estiver usando variável de ambiente
+const baseUrl = ""; // Mantenha esta linha se estiver usando um base URL vazio
+
+export const routes: Array<RouteRecordRaw> = [
   {
     path: `${baseUrl}/`,
     children: [
@@ -64,6 +69,18 @@ export const routes = [
       },
     ],
   },
+  // --- Adição da sua nova página (MinhaPagina.vue) ---
+  {
+    path: `${baseUrl}/minha-pagina`, // A URL que você vai acessar no navegador
+    children: [
+      {
+        path: "", // O caminho vazio significa que a rota principal '/minha-pagina' usa este componente
+        name: "MinhaPagina", // O nome da sua rota (para navegação programática e i18n)
+        component: () => import("@/views/MinhaPagina.vue"), // Aponta para o arquivo que você chamou de MinhaPagina.vue
+      },
+    ],
+  },
+  // ----------------------------------------------------
 ];
 
 export const router = createRouter({
