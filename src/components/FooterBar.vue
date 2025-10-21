@@ -3,7 +3,7 @@
     <div class="container py-4">
       <div class="row">
         <!-- Institucional -->
-        <div class="col-md-4 mb-4">
+        <div class="col-md-5 mb-4">
           <h5 class="fw-bold">{{ t("footer.title") }}</h5>
           <p>{{ t("footer.description") }}</p>
         </div>
@@ -25,10 +25,10 @@
           </ul>
         </div>
 
-        <!-- Redes sociais com ícones do Bootstrap -->
-        <div class="col-md-4 mb-4">
+        <!-- Redes sociais -->
+        <div class="col-md-3 mb-4">
           <h5 class="fw-bold">Social</h5>
-          <div class="d-flex flex-wrap gap-2">
+          <div class="d-flex flex-wrap gap-2 social-icons-container">
             <a
               v-for="item in socialMedia"
               :key="item.url"
@@ -39,7 +39,7 @@
               rel="noopener"
               class="d-inline-block"
             >
-              <svg class="bi" width="2em" height="2em" fill="currentColor">
+              <svg class="bi social-icon" fill="currentColor">
                 <use :xlink:href="getIconPath(item.name)" />
               </svg>
             </a>
@@ -59,45 +59,33 @@ import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 
 const socialMedia = [
-  {
-    name: "whatsapp",
-    alt: t("footer.socialMedia.whatsapp"),
-    url: "https://whatsapp.com/channel/0029Vb3tWIO3wtb3Jvag6Z0H",
-  },
-  {
-    name: "twitter-x",
-    alt: t("footer.socialMedia.twitter"),
-    url: "https://x.com/utfpr_td",
-  },
-  {
-    name: "tiktok",
-    alt: t("footer.socialMedia.tiktok"),
-    url: "https://tiktok.com/@utfpr.toledo",
-  },
-  {
-    name: "youtube",
-    alt: t("footer.socialMedia.youtube"),
-    url: "https://www.youtube.com/@UTFPRToledoOficial",
-  },
-  {
-    name: "instagram",
-    alt: t("footer.socialMedia.instagram"),
-    url: "https://www.instagram.com/utfprtd/",
-  },
-  {
-    name: "facebook",
-    alt: t("footer.socialMedia.facebook"),
-    url: "https://www.facebook.com/UTFPR.TD/",
-  },
-  {
-    name: "linkedin",
-    alt: t("footer.socialMedia.linkedin"),
-    url: "https://www.linkedin.com/school/utfpr-oficial/?originalSubdomain=br",
-  },
+  { name: "facebook", alt: t("footer.socialMedia.facebook"), url: "https://www.facebook.com/UTFPR.TD/" },
+  { name: "instagram", alt: t("footer.socialMedia.instagram"), url: "https://www.instagram.com/utfprtd/" },
+  { name: "linkedin", alt: t("footer.socialMedia.linkedin"), url: "https://www.linkedin.com/school/utfpr-oficial" },
+  { name: "tiktok", alt: t("footer.socialMedia.tiktok"), url: "https://tiktok.com/@utfpr.toledo" },
+  { name: "twitter-x", alt: t("footer.socialMedia.twitter"), url: "https://x.com/utfpr_td" },
+  { name: "whatsapp", alt: t("footer.socialMedia.whatsapp"), url: "https://whatsapp.com/channel/0029Vb3tWIO3wtb3Jvag6Z0H" },
+  { name: "youtube", alt: t("footer.socialMedia.youtube"), url: "https://www.youtube.com/@UTFPRToledoOficial" },
 ];
 
-// função para pegar o caminho do ícone na pasta do pacote bootstrap-icons
 const getIconPath = (name: string) => {
   return `node_modules/bootstrap-icons/bootstrap-icons.svg#${name}`;
 };
 </script>
+
+<style scoped>
+/* Social icons config */
+.social-icon {
+  width: 1.3em;
+  height: 1.3em;
+  transition: transform 0.2s;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+.social-icons-container {
+  font-size: 1rem;
+}
+</style>
