@@ -6,12 +6,14 @@ O esperado de um projeto incial:
 - [x] Fazer o auto do tema (detecta preferência do sistema)
 - [x] Multi línguas ([vue-i18n](https://vue-i18n.intlify.dev/))
 - [x] Colocar mais palavras na tradução (i18n.json)
+- [ ] Colocar os ícones do bootstrap5
 - [ ] Pensar no site com a pasta layouts?!?
 - [ ] Busca interna ??? [algolia](https://www.algolia.com/developers) [typesense](https://typesense.org/)
 - [ ] Blog / Notícias ???
-- [ ] Mais frameworks CSS??? (beer, taywind)(templates)
+- [ ] Mais frameworks CSS??? (ex: beer, taywind)
 - [ ] Mais modelos de rodapé e menu principal
-- [x] Colocar os ícones do bootstrap5
+- [ ] Criar temas ou templates. Exemplo de lista no site [startbootstrap](https://startbootstrap.com/templates?showPro=false&showAngular=false&showVue=false)
+
 
 ## Como Contribuir e Expandir
 
