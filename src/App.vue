@@ -1,9 +1,14 @@
 <script setup lang="ts">
 import { useI18n } from "vue-i18n";
-import Navbar from "@/components/NavBar.vue"; // Importe o Navbar.vue
+import Navbar from "@/components/NavBar.vue";
 import FooterBar from "@/components/FooterBar.vue";
+import { computed } from 'vue';
+import { useRoute } from 'vue-router';
 
-const { t } = useI18n(); // Remova 'locale' pois não é usado
+const { t } = useI18n();
+const route = useRoute();
+
+const useMainLayout = computed(() => route.name !== 'Tasks');
 </script>
 
 <template>
@@ -11,20 +16,14 @@ const { t } = useI18n(); // Remova 'locale' pois não é usado
     
     <ChatBot/>
 
-    <!-- Barra de navegação com o dropdown de idioma estilizado, links e modo escuro -->
     <Navbar />
+    
     <div class="flex-fill d-flex flex-column">
-
-    <!-- Renderiza as rotas (HomeView, AboutView, ContactsView, etc.) -->
-    <!-- Conteúdo principal ocupa todo espaço disponível -->
-    <main class="flex-fill container py-4">
-      <RouterView />
-    </main>
-
+      <main class="flex-fill" :class="{ 'container py-4': useMainLayout }">
+        <RouterView />
+      </main>
     </div>
 
-
-    <!-- Criar rodapé -->
     <FooterBar />
   </div>
 </template>

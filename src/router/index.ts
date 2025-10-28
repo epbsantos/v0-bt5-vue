@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-//const baseUrl = import.meta.env.VITE_BUILD_ADDRESS;
 const baseUrl = "";
 export const routes = [
   {
@@ -65,14 +64,24 @@ export const routes = [
     ],
   },
   {
-  path: `${baseUrl}/courses`, 
-  children: [
-    {
-      path: "",
-      name: "Courses",
-      component: () => import("@/views/CoursesView.vue"),
-    },
-  ],
+    path: `${baseUrl}/courses`, 
+    children: [
+      {
+        path: "",
+        name: "Courses",
+        component: () => import("@/views/CoursesView.vue"),
+      },
+    ],
+  },
+  {
+    path: `${baseUrl}/tasks`,
+    children: [
+      {
+        path: "",
+        name: "Tasks",
+        component: () => import("@/views/TasksView.vue"),
+      },
+    ],
   },
 ];
 

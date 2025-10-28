@@ -16,7 +16,16 @@
       "search": "Buscar",
       "news": "Notícias",
       "cards": "Cards",
-      "courses": "Cursos"
+      "courses": "Cursos",
+      "tasks": "Tarefas"
+    },
+    "tasks": {
+      "title": "Minhas Tarefas Acadêmicas",
+      "subtitle": "Use este espaço como sua agenda pessoal para organizar seus estudos e prazos.",
+      "placeholder": "O que precisa ser feito?",
+      "add_button": "Adicionar",
+      "clear_button": "Limpar Concluídas",
+      "empty_state": "Nenhuma tarefa por enquanto!"
     },
     "footer": {
       "title": "Universidade Tecnológica Federal do Paraná (UTFPR)",
@@ -48,8 +57,8 @@
       "paragraph2": "O projeto demonstra boas práticas de front-end, com suporte a múltiplos idiomas, formulário funcional e responsividade.",
       "title2": "Missão",
       "paragraph3": "Desenvolver a educação tecnológica de excelência, construir e compartilhar o conhecimento voltado à solução dos reais desafios da sociedade.",
-      "title3":"Visão",
-      "paragraph4":"Ser uma universidade reconhecida internacionalmente pela importância de sua atuação em prol do desenvolvimento regional e nacional sustentável.",
+      "title3": "Visão",
+      "paragraph4": "Ser uma universidade reconhecida internacionalmente pela importância de sua atuação em prol do desenvolvimento regional e nacional sustentável.",
       "title4": "Ética",
       "paragraph5": "Contar com estudantes e servidores eticamente responsáveis, inseridos em um contexto de busca do conhecimento e de dedicação à verdade científica e à imparcialidade.",
       "title5": "Tecnologia e humanismo",
@@ -117,18 +126,18 @@
         "next": "Próximo"
       }
     },
-      "courses": {
-        "civil_eng": "Engenharia Civil",
-        "comp_eng": "Engenharia de Computação",
-        "biopro_eng": "Engenharia de Bioprocessos e Biotecnologia",
-        "electro_eng": "Engenharia Eletrônica",
-        "math_lic": "Licenciatura em Matemática",
-        "chem_proc_tec": "Tecnologia em Processos Químicos",
-        "web_sys_tec": "Tecnologia em Sistemas para Internet",
-        "bachelor": "Bacharelado",
-        "licentiate": "Licenciatura",
-        "technologist": "Tecnólogo"
-      }
+    "courses": {
+      "civil_eng": "Engenharia Civil",
+      "comp_eng": "Engenharia de Computação",
+      "biopro_eng": "Engenharia de Bioprocessos e Biotecnologia",
+      "electro_eng": "Engenharia Eletrônica",
+      "math_lic": "Licenciatura em Matemática",
+      "chem_proc_tec": "Tecnologia em Processos Químicos",
+      "web_sys_tec": "Tecnologia em Sistemas para Internet",
+      "bachelor": "Bacharelado",
+      "licentiate": "Licenciatura",
+      "technologist": "Tecnólogo"
+    }
   },
   "en": {
     "welcome": "Welcome to our website!",
@@ -144,9 +153,19 @@
       "about": "About",
       "contact": "Contact",
       "contacts": "Contact",
+      "search": "Search",
       "news": "News",
       "cards": "Cards",
-      "courses": "Courses"
+      "courses": "Courses",
+      "tasks": "Tasks"
+    },
+    "tasks": {
+      "title": "My Academic Tasks",
+      "subtitle": "Use this space as your personal agenda to organize your studies and deadlines.",
+      "placeholder": "What needs to be done?",
+      "add_button": "Add",
+      "clear_button": "Clear Completed",
+      "empty_state": "No tasks for now!"
     },
     "footer": {
       "title": "Federal University of Technology – Paraná (UTFPR)",
@@ -155,6 +174,7 @@
       "address": "R. Cristo Rei, 19 – Vila Becker, Toledo – PR, 85902-490",
       "phone": "+55  (45) 3379-6800",
       "email": "contato@utfpr.edu.br",
+      "copyright": "© 2025 Federal University of Technology - Paraná. All rights reserved.",
       "socialMedia": {
         "whatsapp": "Link to WhatsApp",
         "twitter": "Link to Twitter",
@@ -247,17 +267,17 @@
       }
     },
     "courses": {
-        "civil_eng": "Civil Engineering",
-        "comp_eng": "Computer Engineering",
-        "biopro_eng": "Bioprocess and Biotechnology Engineering",
-        "electro_eng": "Electronic Engineering",
-        "math_lic": "Mathematics (Teaching Degree)",
-        "chem_proc_tec": "Technology in Chemical Processes",
-        "web_sys_tec": "Technology in Systems for Internet",
-        "bachelor": "Bachelor's Degree",
-        "licentiate": "Teaching Degree",
-        "technologist": "Technologist"
-      }
+      "civil_eng": "Civil Engineering",
+      "comp_eng": "Computer Engineering",
+      "biopro_eng": "Bioprocess and Biotechnology Engineering",
+      "electro_eng": "Electronic Engineering",
+      "math_lic": "Mathematics (Teaching Degree)",
+      "chem_proc_tec": "Technology in Chemical Processes",
+      "web_sys_tec": "Technology in Systems for Internet",
+      "bachelor": "Bachelor's Degree",
+      "licentiate": "Teaching Degree",
+      "technologist": "Technologist"
+    }
   },
   "es": {
     "welcome": "¡Bienvenido a nuestro sitio web!",
@@ -273,8 +293,19 @@
       "about": "Sobre",
       "contact": "Contacto",
       "contacts": "Contacto",
+      "search": "Buscar",
       "news": "Noticias",
-      "courses": "Cursos"
+      "cards": "Tarjetas",
+      "courses": "Cursos",
+      "tasks": "Tareas"
+    },
+    "tasks": {
+      "title": "Mis Tareas Académicas",
+      "subtitle": "Usa este espacio como tu agenda personal para organizar tus estudios y plazos.",
+      "placeholder": "¿Qué hay que hacer?",
+      "add_button": "Añadir",
+      "clear_button": "Limpiar Completadas",
+      "empty_state": "¡No hay tareas por ahora!"
     },
     "footer": {
       "title": "Universidad Tecnológica Federal de Paraná (UTFPR)",
@@ -283,6 +314,7 @@
       "address": "R. Cristo Rei, 19 – Vila Becker, Toledo – PR, 85902-490",
       "phone": "+55 (45) 3379-6800",
       "email": "contato@utfpr.edu.br",
+      "copyright": "© 2025 Universidad Tecnológica Federal de Paraná. Todos los derechos reservados.",
       "socialMedia": {
         "whatsapp": "Enlace a WhatsApp",
         "twitter": "Enlace a Twitter",
@@ -374,18 +406,18 @@
         "next": "Siguiente"
       }
     },
-      "courses": {
-        "civil_eng": "Ingeniería Civil",
-        "comp_eng": "Ingeniería de Computación",
-        "biopro_eng": "Ingeniería de Bioprocesos y Biotecnología",
-        "electro_eng": "Ingeniería Electrónica",
-        "math_lic": "Licenciatura en Matemáticas",
-        "chem_proc_tec": "Tecnología en Procesos Químicos",
-        "web_sys_tec": "Tecnología en Sistemas para Internet",
-        "bachelor": "Bachillerato",
-        "licentiate": "Licenciatura",
-        "technologist": "Tecnólogo"
-      }
+    "courses": {
+      "civil_eng": "Ingeniería Civil",
+      "comp_eng": "Ingeniería de Computación",
+      "biopro_eng": "Ingeniería de Bioprocesos y Biotecnología",
+      "electro_eng": "Ingeniería Electrónica",
+      "math_lic": "Licenciatura en Matemáticas",
+      "chem_proc_tec": "Tecnología en Procesos Químicos",
+      "web_sys_tec": "Tecnología en Sistemas para Internet",
+      "bachelor": "Bachillerato",
+      "licentiate": "Licenciatura",
+      "technologist": "Tecnólogo"
+    }
   },
   "fr": {
     "welcome": "Bienvenue sur notre site Web !",
@@ -404,7 +436,16 @@
       "search": "Rechercher",
       "news": "Nouvelles",
       "cards": "Cards",
-      "courses": "Cours"
+      "courses": "Cours",
+      "tasks": "Tâches"
+    },
+    "tasks": {
+      "title": "Mes Tâches Académiques",
+      "subtitle": "Utilisez cet espace comme votre agenda personnel pour organiser vos études et vos échéances.",
+      "placeholder": "Que faut-il faire ?",
+      "add_button": "Ajouter",
+      "clear_button": "Effacer terminées",
+      "empty_state": "Aucune tâche pour le moment !"
     },
     "footer": {
       "title": "Université Fédérale de Technologie du Paraná (UTFPR)",
@@ -413,6 +454,7 @@
       "address": "R. Cristo Rei, 19 – Vila Becker, Toledo – PR, 85902-490",
       "phone": "+55 (45) 3379-6800",
       "email": "contato@utfpr.edu.br",
+      "copyright": "© 2025 Université Fédérale de Technologie du Paraná. Tous droits réservés.",
       "socialMedia": {
         "whatsapp": "Lien vers WhatsApp",
         "twitter": "Lien vers Twitter",
@@ -455,7 +497,6 @@
       "paragraph12": "Promouvoir l'éducation technologique en respectant et valorisant la diversité et le potentiel de chaque personne.",
       "title12": "Démocratie et transparence",
       "paragraph13": "Valoriser la participation démocratique et la transparence à tous les niveaux de l'UTFPR, en renforçant l'implication des communautés universitaires et externes dans la conception, la prise de décision, la mise en œuvre et l'évaluation des actions de l'université."
-      
     },
     "contactPage": {
       "title": "Contactez-nous",
@@ -505,17 +546,17 @@
         "next": "Suivant"
       }
     },
-      "courses": {
-        "civil_eng": "Génie Civil",
-        "comp_eng": "Génie Informatique",
-        "biopro_eng": "Génie des Bioprocédés et Biotechnologie",
-        "electro_eng": "Génie Électronique",
-        "math_lic": "Licence en Mathématiques",
-        "chem_proc_tec": "Technologie des Procédés Chimiques",
-        "web_sys_tec": "Technologie des Systèmes pour Internet",
-        "bachelor": "Baccalauréat",
-        "licentiate": "Licence",
-        "technologist": "Technologue"
-      }
+    "courses": {
+      "civil_eng": "Génie Civil",
+      "comp_eng": "Génie Informatique",
+      "biopro_eng": "Génie des Bioprocédés et Biotechnologie",
+      "electro_eng": "Génie Électronique",
+      "math_lic": "Licence en Mathématiques",
+      "chem_proc_tec": "Technologie des Procédés Chimiques",
+      "web_sys_tec": "Technologie des Systèmes pour Internet",
+      "bachelor": "Baccalauréat",
+      "licentiate": "Licence",
+      "technologist": "Technologue"
+    }
   }
 }
