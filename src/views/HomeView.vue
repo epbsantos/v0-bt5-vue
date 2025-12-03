@@ -117,7 +117,42 @@ const courses = [
     description: "O curso de Engenharia da Computação é uma graduação de bacharelado que integra conhecimentos de ciência da computação e engenharia elétrica para formar profissionais capazes de projetar, desenvolver e gerenciar sistemas de hardware e software.",
     image: "https://imgs.search.brave.com/XioYAEHkOqmgFoyaubdFEzPuQAjhoFJUtovkBE3lNuE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM0/Nzk3Mjk0Ny9wdC9m/b3RvL2NvbXB1dGVy/LXRlY2huaWNpYW4t/Zml4aW5nLWEtbmV0/d29yay1zZXJ2ZXIt/YXQtdGhlLW9mZmlj/ZS5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9REpLNnNHSE9a/LXFzOUpXWk5jNjlT/ODRnZmlNZHZ5aUsx/QkhwVzExWnNzUT0",
   },
-  
+  {
+    id: 2,
+    name: "Engenharia Eletrônica",
+    description: "O curso de Engenharia Eletrônica é focado no projeto, desenvolvimento e manutenção de sistemas e dispositivos eletrônicos, utilizando princípios da física e matemática para criar soluções tecnológicas inovadoras.",
+    image: "https://static.vecteezy.com/ti/fotos-gratis/t2/24084039-fechar-se-mao-do-a-eletrico-engenheiro-verificacao-dentro-ao-controle-painel-ou-automacao-caixa-conceito-do-eletricidade-manutencao-servico-criada-de-generativo-ai-tecnologia-foto.jpg",
+  },
+  {
+    id: 3,
+    name: "Engenharia Civil",
+    description: "O curso de Engenharia Civil é uma graduação da área de ciências exatas focada no planejamento, projeto, construção e manutenção de infraestruturas físicas, como edifícios, pontes, estradas e sistemas de saneamento.",
+    image: "https://piniweb.com.br/wp-content/uploads/2025/08/FOTO-4-800x400.jpg",
+  },
+  {
+    id: 4,
+    name: "Engenharia de Bioprocessos e Biotecnologia",
+    description: "O curso de Engenharia de Bioprocessos e Biotecnologia é uma graduação de nível superior (bacharelado) que forma profissionais aptos a desenvolver e otimizar processos industriais e produtos que utilizam organismos vivos, como células e microrganismos, ou seus derivados.",
+    image: "https://thumbs.dreamstime.com/b/operador-de-engenharia-e-ecr%C3%A3s-inform%C3%A1ticos-com-sistemas-produ%C3%A7%C3%A3o-modernos-seguindo-ind%C3%BAstria-engenheiros-controlo-f%C3%A1brica-263661543.jpg",
+  },
+  {
+    id: 5,
+    name: "Licenciatura em Matemática",
+    description: "O curso de Licenciatura em Matemática tem como objetivo principal a formação de professores para atuar na Educação Básica (ensino fundamental e médio).",
+    image: "https://static.vecteezy.com/ti/vetor-gratis/t1/53096605-matematica-geometria-grafico-e-formas-em-quadro-negro-fundo-conjunto-ciencia-rabisco-mao-desenhado-esboco-elementos-estude-teoria-formula-calculos-vetor.jpg",
+  },
+  {
+    id: 6,
+    name: "Tecnologia em Processos Químicos",
+    description: "O curso de Tecnologia em Processos Químicos forma profissionais capazes de operar, controlar e gerenciar processos industriais, atuando desde a pesquisa e desenvolvimento até a produção e o controle de qualidade em diversas indústrias, como petroquímica, alimentícia, farmacêutica e de tratamento de efluentes.",
+    image: "https://thumbs.dreamstime.com/b/quadro-negro-do-laborat%C3%B3rio-de-qu%C3%ADmica-31258763.jpg",
+  },
+  {
+    id: 7,
+    name: "Tecnologia em Sistemas para Internet",
+    description: "O curso de Tecnologia em Sistemas para Internet capacita profissionais a projetar, desenvolver e manter sistemas e aplicativos para a web, como sites, portais, e-commerces e intranets.",
+    image: "https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/19/2023/12/ams-dev.jpg",
+  },
 ];
 
 // Links das mídias sociais
