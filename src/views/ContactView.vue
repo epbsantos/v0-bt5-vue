@@ -238,28 +238,5 @@ const resetForm = () => {
 </template>
 
 <style scoped>
-h2 {
-  font-size: 2rem;
-  margin-bottom: 1.25rem;
-}
-.contact-form {
-  max-width: 30em;
-  font-size: 1rem;
-}
-.form-label {
-  font-size: 1rem;
-}
-input.form-control {
-  font-size: 1rem;
-  padding: 0.5em;
-}
-button.btn {
-  font-size: 1rem;
-  padding: 0.75em 0;
-}
-.mapa-container {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: start;
-}
+@import "@/styles/Contact.css";
 </style>

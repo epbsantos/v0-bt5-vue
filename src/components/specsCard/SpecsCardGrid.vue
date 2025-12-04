@@ -44,6 +44,7 @@ onMounted(async () => {
 </template>
 
 <style scoped>
+
 .specs-card-grid {
     display: flex;
     flex-wrap: wrap;

@@ -1,0 +1,14 @@
+/* Social icons config */
+.social-icon {
+  width: 1.3em;
+  height: 1.3em;
+  transition: transform 0.2s;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+.social-icons-container {
+  font-size: 1rem;
+}

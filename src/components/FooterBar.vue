@@ -74,18 +74,6 @@ const getIconPath = (name: string) => {
 </script>
 
 <style scoped>
-/* Social icons config */
-.social-icon {
-  width: 1.3em;
-  height: 1.3em;
-  transition: transform 0.2s;
-}
+@import "@/styles/FooterBar.css"
 
-.social-icon:hover {
-  transform: scale(1.2);
-}
-
-.social-icons-container {
-  font-size: 1rem;
-}
 </style>

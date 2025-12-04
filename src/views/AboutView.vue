@@ -34,13 +34,5 @@ const { t } = useI18n();
   </div>
 </template>
 <style scoped>
-h1 {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-}
-.about-text {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  text-align: left;
-}
+@impor "@/styles/About.css";
 </style>

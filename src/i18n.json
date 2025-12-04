@@ -1,6 +1,7 @@
 {
   "pt": {
     "welcome": "Bem-vindo ao nosso site!",
+    "Cards" : "Os cards apresentados nessa página são gerados a partir de um JSON vindo de uma API.O <code>SpecsCardGrid</code> recebe o link da API na propriedade <code>apiURL <code>e busca o JSON. É esperado que a API retorne um array de objetos!Além disso ele espera que as 'keys' do JSON sejam informadas nas propriedades <code>imgSrcKey</code>, <code>imgAltKey</code>, <code>titleKey</code>,<code>subTitleKey</code> e <code>descriptionKey</code> (todas são opcionais, omitir a propriedade omite o elemento do card).br>Exemplo: Se o json possuir <code>[{'animal':'Bird'},{'animal':'Horse'}]</code>é possível colocar 'Bird' e 'Horse' no titulo dos cards ao especificar <code> titleKey='animal'<code>. <br>Também é possível personalizar algumas dimenssões através das seguintes propriedades:<code>cardWidith='20em'cardRound='1em' gap='1em' margin='1em'</code> (exemplo comos valores padrão).",
     "language": "Idioma",
     "navbar": {
       "search": "Buscar",
@@ -141,6 +142,7 @@
   },
   "en": {
     "welcome": "Welcome to our website!",
+    "Cards" : "The cards shown on this page are generated from a JSON object sent via an API. The <code>SpecsCardGrid</code> receives the API link in the <code>apiURL</code> property and retrieves the JSON. An API is expected to return an array of objects! Furthermore, it expects the JSON 'keys' to be provided in the properties <code>imgSrcKey</code>, <code>imgAltKey</code>, <code>titleKey</code>, <code>subTitleKey</code> and <code>descriptionKey</code> (all are optional, omitting the property will omit the card element).<br>Example: If the JSON has <code>[{\"animal\":\"Bird\"},{\"animal\":\"Horse\"}]</code> it is possible to put 'Bird' and 'Horse' in the card titles by specifying <code>titleKey=\"animal\"</code>.<br>It is also possible to customize some dimensions through the following properties: <code>cardWidth=\"20em\" cardRound=\"1em\" gap=\"1em\" margin=\"1em\"</code> (example with the default values).",
     "language": "Language",
     "navbar": {
       "search": "Search",
@@ -281,6 +283,7 @@
   },
   "es": {
     "welcome": "¡Bienvenido a nuestro sitio web!",
+    "Cards" : "Las tarjetas mostradas en esta página se generan a partir de un objeto JSON enviado a través de una API. El <code>SpecsCardGrid</code> recibe el enlace de la API en la propiedad <code>apiURL</code> y recupera el JSON. ¡Se espera que la API devuelva un array de objetos! Además, espera que las 'keys' del JSON se proporcionen en las propiedades <code>imgSrcKey</code>, <code>imgAltKey</code>, <code>titleKey</code>, <code>subTitleKey</code> y <code>descriptionKey</code> (todas son opcionales, omitir la propiedad omitirá el elemento de la tarjeta).<br>Ejemplo: Si el JSON contiene <code>[{\"animal\":\"Bird\"},{\"animal\":\"Horse\"}]</code> es posible colocar 'Bird' y 'Horse' en los títulos de las tarjetas especificando <code>titleKey=\"animal\"</code>.<br>También es posible personalizar algunas dimensiones a través de las siguientes propiedades: <code>cardWidth=\"20em\" cardRound=\"1em\" gap=\"1em\" margin=\"1em\"</code> (ejemplo con los valores predeterminados).",
     "language": "Idioma",
     "navbar": {
       "search": "Buscar",
@@ -421,6 +424,7 @@
   },
   "fr": {
     "welcome": "Bienvenue sur notre site Web !",
+    "Cards" : "Les cartes affichées sur cette page sont générées à partir d'un objet JSON envoyé via une API. Le <code>SpecsCardGrid</code> reçoit le lien de l'API dans la propriété <code>apiURL</code> et récupère le JSON. Il est attendu que l'API renvoie un tableau d'objets ! De plus, il attend que les 'clés' du JSON soient fournies dans les propriétés <code>imgSrcKey</code>, <code>imgAltKey</code>, <code>titleKey</code>, <code>subTitleKey</code> et <code>descriptionKey</code> (toutes sont optionnelles, omettre la propriété omettra l'élément de la carte).<br>Exemple : Si le JSON contient <code>[{\"animal\":\"Bird\"},{\"animal\":\"Horse\"}]</code> il est possible de mettre 'Bird' et 'Horse' dans les titres des cartes en spécifiant <code>titleKey=\"animal\"</code>.<br>Il est également possible de personnaliser certaines dimensions via les propriétés suivantes : <code>cardWidth=\"20em\" cardRound=\"1em\" gap=\"1em\" margin=\"1em\"</code> (exemple avec les valeurs par défaut).",
     "language": "Langue",
     "navbar": {
       "search": "Rechercher",

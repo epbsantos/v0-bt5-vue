@@ -1,0 +1,32 @@
+.card-title {
+  font-weight: bold;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+  color: white;
+  font-size: 5rem;
+}
+
+.carousel-control-prev::after,
+.carousel-control-next::after {
+  content: '‹';
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.carousel-control-next::after {
+  content: '›';
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-link .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
