@@ -88,4 +88,28 @@ Certifique-se de que todas as configurações revisadas sobre o script de constr
 npm run build
 ```
 ### Documentação
-Foram adicionados e removidos textos no arquivo json, alteração na página sobre nós, remoção de tag's sem valor, e também definição de um link na imagem do footer. Criação de uma function para verificar se os campos estão preenchidos, e retorno de feedback para cada envio, retornando sucesso ou erro através de um boleano, tipagem e formatação dos dados inseridos no formulário.
+Neste trabalho foi implementado o idioma Italiano para internacionalização; os componentes de cards foram ajustados para renderizar corretamente com layout uniforme e responsivo; e o estilo dos cards agora responde ao tema claro/escuro do site, alterando a cor de fundo conforme o modo ativo.
+
+Com base na estrutura típica de um projeto Vue 3 + Bootstrap 5 (como o do repositório em questão), aqui vai uma visão geral dos arquivos principais e o que cada um faz — de modo simples e direto, útil para quem for rodar ou revisar o projeto:
+
+index.html (na raiz) - Página HTML principal: serve de “shell” para a aplicação Vue. Contém "<html lang="pt-br" data-bs-theme="light">" — o que define o idioma base e o tema inicial (claro).
+
+src/ - Pasta principal do código-fonte: onde ficam todos os componentes, configuração i18n, rotas, estilos, etc.
+
+src/i18n.json	- Arquivo de traduções / internacionalização. Dentro dele estão os textos em diferentes idiomas (pt, en, es, fr, it), usados em todo o site para tornar a interface multilíngue.
+
+src/main.ts (ou equivalente de bootstrap)	- Arquivo de inicialização da aplicação: configura Vue, importa Bootstrap / estilos globais, monta a aplicação, conecta router + i18n + etc.
+
+src/App.vue	- Componente raiz da aplicação — define a estrutura geral da página, incluindo navbar, rodapé (footer), espaço para conteúdo (RouterView), e provê o layout base.
+
+src/components/	- Pasta de componentes reutilizáveis — botões, cards, navbar, footer, etc. Cada componente encapsula HTML + lógica + estilo.
+
+SpecsCard.vue (ou componente de card)	- Componente responsável por exibir um “card” individual: imagem, título, subtítulo, descrição — com estilo customizável e props. Usado quando o site precisa renderizar uma lista de itens dinamicamente.
+
+Componente de “grid de cards” (ex: SpecsCardGrid.vue ou similar) - Faz a chamada à API via fetch, obtém JSON de dados, armazena num ref, e renderiza múltiplos SpecsCard via v-for. Responsável por montar o layout de cards na página.
+
+Componentes de páginas / views (ex: Home, About, Contact, Tasks, News etc) - Cada um corresponde a uma rota do SPA (via Vue Router). Contém o template + lógica + estilo específicos daquela página — layout base herdado de App.vue.
+
+README.md	- Documento explicativo do repositório: descreve instalação, configuração, ideias, instruções para rodar/builder, funcionalidades previstas e como usar o projeto como base.
+
+Configurações do build/tooling (ex: vite.config.js, tsconfig.json, etc)	- Arquivos de configuração do ambiente de desenvolvimento, build e TypeScript — garantem que o projeto compile corretamente, com suporte a Vue 3 + Bootstrap 5 + TypeScript.

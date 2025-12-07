@@ -1,7 +1,7 @@
 {
   "pt": {
     "welcome": "Bem-vindo ao nosso site!",
-    "Cards" : "Os cards apresentados nessa página são gerados a partir de um JSON vindo de uma API.O <code>SpecsCardGrid</code> recebe o link da API na propriedade <code>apiURL <code>e busca o JSON. É esperado que a API retorne um array de objetos!Além disso ele espera que as 'keys' do JSON sejam informadas nas propriedades <code>imgSrcKey</code>, <code>imgAltKey</code>, <code>titleKey</code>,<code>subTitleKey</code> e <code>descriptionKey</code> (todas são opcionais, omitir a propriedade omite o elemento do card).br>Exemplo: Se o json possuir <code>[{'animal':'Bird'},{'animal':'Horse'}]</code>é possível colocar 'Bird' e 'Horse' no titulo dos cards ao especificar <code> titleKey='animal'<code>. <br>Também é possível personalizar algumas dimenssões através das seguintes propriedades:<code>cardWidith='20em'cardRound='1em' gap='1em' margin='1em'</code> (exemplo comos valores padrão).",
+    "Cards": "Os cards apresentados nessa página são gerados a partir de um JSON vindo de uma API.O <code>SpecsCardGrid</code> recebe o link da API na propriedade <code>apiURL <code>e busca o JSON. É esperado que a API retorne um array de objetos!Além disso ele espera que as 'keys' do JSON sejam informadas nas propriedades <code>imgSrcKey</code>, <code>imgAltKey</code>, <code>titleKey</code>,<code>subTitleKey</code> e <code>descriptionKey</code> (todas são opcionais, omitir a propriedade omite o elemento do card).br>Exemplo: Se o json possuir <code>[{'animal':'Bird'},{'animal':'Horse'}]</code>é possível colocar 'Bird' e 'Horse' no titulo dos cards ao especificar <code> titleKey='animal'<code>. <br>Também é possível personalizar algumas dimenssões através das seguintes propriedades:<code>cardWidith='20em'cardRound='1em' gap='1em' margin='1em'</code> (exemplo comos valores padrão).",
     "language": "Idioma",
     "navbar": {
       "search": "Buscar",
@@ -50,7 +50,8 @@
       "pt": "Português",
       "en": "Inglês",
       "es": "Espanhol",
-      "fr": "Francês"
+      "fr": "Francês",
+      "it": "Italiano"
     },
     "aboutPage": {
       "title": "Sobre a nós",
@@ -142,7 +143,7 @@
   },
   "en": {
     "welcome": "Welcome to our website!",
-    "Cards" : "The cards shown on this page are generated from a JSON object sent via an API. The <code>SpecsCardGrid</code> receives the API link in the <code>apiURL</code> property and retrieves the JSON. An API is expected to return an array of objects! Furthermore, it expects the JSON 'keys' to be provided in the properties <code>imgSrcKey</code>, <code>imgAltKey</code>, <code>titleKey</code>, <code>subTitleKey</code> and <code>descriptionKey</code> (all are optional, omitting the property will omit the card element).<br>Example: If the JSON has <code>[{\"animal\":\"Bird\"},{\"animal\":\"Horse\"}]</code> it is possible to put 'Bird' and 'Horse' in the card titles by specifying <code>titleKey=\"animal\"</code>.<br>It is also possible to customize some dimensions through the following properties: <code>cardWidth=\"20em\" cardRound=\"1em\" gap=\"1em\" margin=\"1em\"</code> (example with the default values).",
+    "Cards": "The cards shown on this page are generated from a JSON object sent via an API. The <code>SpecsCardGrid</code> receives the API link in the <code>apiURL</code> property and retrieves the JSON. An API is expected to return an array of objects! Furthermore, it expects the JSON 'keys' to be provided in the properties <code>imgSrcKey</code>, <code>imgAltKey</code>, <code>titleKey</code>, <code>subTitleKey</code> and <code>descriptionKey</code> (all are optional, omitting the property will omit the card element).<br>Example: If the JSON has <code>[{\"animal\":\"Bird\"},{\"animal\":\"Horse\"}]</code> it is possible to put 'Bird' and 'Horse' in the card titles by specifying <code>titleKey=\"animal\"</code>.<br>It is also possible to customize some dimensions through the following properties: <code>cardWidth=\"20em\" cardRound=\"1em\" gap=\"1em\" margin=\"1em\"</code> (example with the default values).",
     "language": "Language",
     "navbar": {
       "search": "Search",
@@ -191,7 +192,8 @@
       "pt": "Portuguese",
       "en": "English",
       "es": "Spanish",
-      "fr": "French"
+      "fr": "French",
+      "it": "Italiano"
     },
     "aboutPage": {
       "title": "About Us",
@@ -283,7 +285,7 @@
   },
   "es": {
     "welcome": "¡Bienvenido a nuestro sitio web!",
-    "Cards" : "Las tarjetas mostradas en esta página se generan a partir de un objeto JSON enviado a través de una API. El <code>SpecsCardGrid</code> recibe el enlace de la API en la propiedad <code>apiURL</code> y recupera el JSON. ¡Se espera que la API devuelva un array de objetos! Además, espera que las 'keys' del JSON se proporcionen en las propiedades <code>imgSrcKey</code>, <code>imgAltKey</code>, <code>titleKey</code>, <code>subTitleKey</code> y <code>descriptionKey</code> (todas son opcionales, omitir la propiedad omitirá el elemento de la tarjeta).<br>Ejemplo: Si el JSON contiene <code>[{\"animal\":\"Bird\"},{\"animal\":\"Horse\"}]</code> es posible colocar 'Bird' y 'Horse' en los títulos de las tarjetas especificando <code>titleKey=\"animal\"</code>.<br>También es posible personalizar algunas dimensiones a través de las siguientes propiedades: <code>cardWidth=\"20em\" cardRound=\"1em\" gap=\"1em\" margin=\"1em\"</code> (ejemplo con los valores predeterminados).",
+    "Cards": "Los cards mostradas en esta página se generan a partir de un objeto JSON enviado a través de una API. El <code>SpecsCardGrid</code> recibe el enlace de la API en la propiedad <code>apiURL</code> y recupera el JSON. ¡Se espera que la API devuelva un array de objetos! Además, espera que las 'keys' del JSON se proporcionen en las propiedades <code>imgSrcKey</code>, <code>imgAltKey</code>, <code>titleKey</code>, <code>subTitleKey</code> y <code>descriptionKey</code> (todas son opcionales, omitir la propiedad omitirá el elemento de la tarjeta).<br>Ejemplo: Si el JSON contiene <code>[{\"animal\":\"Bird\"},{\"animal\":\"Horse\"}]</code> es posible colocar 'Bird' y 'Horse' en los títulos de los cards especificando <code>titleKey=\"animal\"</code>.<br>También es posible personalizar algunas dimensiones a través de las siguientes propiedades: <code>cardWidth=\"20em\" cardRound=\"1em\" gap=\"1em\" margin=\"1em\"</code> (ejemplo con los valores predeterminados).",
     "language": "Idioma",
     "navbar": {
       "search": "Buscar",
@@ -298,7 +300,7 @@
       "contacts": "Contacto",
       "search": "Buscar",
       "news": "Noticias",
-      "cards": "Tarjetas",
+      "cards": "Cards",
       "courses": "Cursos",
       "tasks": "Tareas"
     },
@@ -332,7 +334,8 @@
       "pt": "Portugués",
       "en": "Inglés",
       "es": "Español",
-      "fr": "Francés"
+      "fr": "Francés",
+      "it": "Italiano"
     },
     "aboutPage": {
       "title": "Sobre Nosotros",
@@ -424,7 +427,7 @@
   },
   "fr": {
     "welcome": "Bienvenue sur notre site Web !",
-    "Cards" : "Les cartes affichées sur cette page sont générées à partir d'un objet JSON envoyé via une API. Le <code>SpecsCardGrid</code> reçoit le lien de l'API dans la propriété <code>apiURL</code> et récupère le JSON. Il est attendu que l'API renvoie un tableau d'objets ! De plus, il attend que les 'clés' du JSON soient fournies dans les propriétés <code>imgSrcKey</code>, <code>imgAltKey</code>, <code>titleKey</code>, <code>subTitleKey</code> et <code>descriptionKey</code> (toutes sont optionnelles, omettre la propriété omettra l'élément de la carte).<br>Exemple : Si le JSON contient <code>[{\"animal\":\"Bird\"},{\"animal\":\"Horse\"}]</code> il est possible de mettre 'Bird' et 'Horse' dans les titres des cartes en spécifiant <code>titleKey=\"animal\"</code>.<br>Il est également possible de personnaliser certaines dimensions via les propriétés suivantes : <code>cardWidth=\"20em\" cardRound=\"1em\" gap=\"1em\" margin=\"1em\"</code> (exemple avec les valeurs par défaut).",
+    "Cards": "Les cartes affichées sur cette page sont générées à partir d'un objet JSON envoyé via une API. Le <code>SpecsCardGrid</code> reçoit le lien de l'API dans la propriété <code>apiURL</code> et récupère le JSON. Il est attendu que l'API renvoie un tableau d'objets ! De plus, il attend que les 'clés' du JSON soient fournies dans les propriétés <code>imgSrcKey</code>, <code>imgAltKey</code>, <code>titleKey</code>, <code>subTitleKey</code> et <code>descriptionKey</code> (toutes sont optionnelles, omettre la propriété omettra l'élément de la carte).<br>Exemple : Si le JSON contient <code>[{\"animal\":\"Bird\"},{\"animal\":\"Horse\"}]</code> il est possible de mettre 'Bird' et 'Horse' dans les titres des cartes en spécifiant <code>titleKey=\"animal\"</code>.<br>Il est également possible de personnaliser certaines dimensions via les propriétés suivantes : <code>cardWidth=\"20em\" cardRound=\"1em\" gap=\"1em\" margin=\"1em\"</code> (exemple avec les valeurs par défaut).",
     "language": "Langue",
     "navbar": {
       "search": "Rechercher",
@@ -473,7 +476,8 @@
       "pt": "Portugais",
       "en": "Anglais",
       "es": "Espagnol",
-      "fr": "Français"
+      "fr": "Français",
+      "it": "Italiano"
     },
     "aboutPage": {
       "title": "À propos de nous",
@@ -561,6 +565,148 @@
       "bachelor": "Baccalauréat",
       "licentiate": "Licence",
       "technologist": "Technologue"
+    }
+  },
+  "it": {
+    "welcome": "Benvenuto nel nostro sito!",
+    "Cards": "Le card presentate in questa pagina sono generate da un JSON proveniente da un'API. <code>SpecsCardGrid</code> riceve il link dell'API nella proprietà <code>apiURL</code> e recupera il JSON. È previsto che l’API restituisca un array di oggetti! Inoltre, si aspetta che le 'chiavi' del JSON vengano indicate nelle proprietà <code>imgSrcKey</code>, <code>imgAltKey</code>, <code>titleKey</code>, <code>subTitleKey</code> e <code>descriptionKey</code> (tutte facoltative; omettere la proprietà omette l’elemento della card).<br>Esempio: se il JSON contiene <code>[{'animal':'Bird'},{'animal':'Horse'}]</code>, è possibile mostrare 'Bird' e 'Horse' nel titolo delle card specificando <code>titleKey='animal'</code>.<br>È inoltre possibile personalizzare alcune dimensioni tramite le seguenti proprietà: <code>cardWidith='20em' cardRound='1em' gap='1em' margin='1em'</code> (esempio con i valori predefiniti).",
+    "language": "Lingua",
+    "navbar": {
+      "search": "Cerca",
+      "darkMode": "Modalità Scura",
+      "toggleNavigation": "Alterna navigazione",
+      "noResults": "Nessun risultato trovato"
+    },
+    "routes": {
+      "home": "Inizio",
+      "about": "Informazioni",
+      "contact": "Contatto",
+      "contacts": "Contatto",
+      "search": "Cerca",
+      "news": "Notizie",
+      "cards": "Card",
+      "courses": "Corsi",
+      "tasks": "Compiti"
+    },
+    "tasks": {
+      "title": "I miei compiti accademici",
+      "subtitle": "Usa questo spazio come la tua agenda personale per organizzare studi e scadenze.",
+      "placeholder": "Cosa deve essere fatto?",
+      "add_button": "Aggiungi",
+      "clear_button": "Cancella completati",
+      "empty_state": "Nessun compito al momento!"
+    },
+    "footer": {
+      "title": "Università Tecnologica Federale del Paraná (UTFPR)",
+      "description": "La UTFPR è un'istituzione di istruzione superiore orientata alla tecnologia e all'innovazione, offrendo laurea, post-laurea e ricerca.",
+      "contact": "Contatto",
+      "address": "R. Cristo Rei, 19 – Vila Becker, Toledo – PR, 85902-490",
+      "phone": "(45) 3379-6800",
+      "email": "contatto@utfpr.edu.br",
+      "copyright": "© 2025 Università Tecnologica Federale del Paraná. Tutti i diritti riservati.",
+      "socialMedia": {
+        "whatsapp": "Link per WhatsApp",
+        "twitter": "Link per Twitter",
+        "youtube": "Link per YouTube",
+        "instagram": "Link per Instagram",
+        "facebook": "Link per Facebook",
+        "linkedin": "Link per LinkedIn",
+        "tiktok": "Link per TikTok"
+      }
+    },
+    "languageNames": {
+      "pt": "Portoghese",
+      "en": "Inglese",
+      "es": "Spagnolo",
+      "fr": "Francese",
+      "it": "Italiano"
+    },
+    "aboutPage": {
+      "title": "Chi siamo",
+      "paragraph1": "Questo sito è stato sviluppato come parte della disciplina <strong>Web Front-End II</strong> della UTFPR, utilizzando Vue 3, Vite, TypeScript, Beercss e i18n.",
+      "paragraph2": "Il progetto dimostra buone pratiche di front-end, con supporto a più lingue, modulo funzionale e design responsivo.",
+      "title2": "Missione",
+      "paragraph3": "Sviluppare l'educazione tecnologica di eccellenza, costruire e condividere la conoscenza orientata alla soluzione delle reali sfide della società.",
+      "title3": "Visione",
+      "paragraph4": "Essere un'università riconosciuta internazionalmente per l'importanza della sua attività a favore dello sviluppo regionale e nazionale sostenibile.",
+      "title4": "Etica",
+      "paragraph5": "Contare su studenti e dipendenti eticamente responsabili, inseriti in un contesto di ricerca della conoscenza e dedizione alla verità scientifica e all'imparzialità.",
+      "title5": "Tecnologia e umanesimo",
+      "paragraph6": "Considerare la tecnologia come qualcosa di inerente alla società e che gli aspetti umani sono parte integrante del problema e della soluzione di ogni sviluppo tecnologico.",
+      "title6": "Sviluppo umano",
+      "paragraph7": "Formare cittadini critici, etici e autonomi.",
+      "title7": "Interazione con il territorio",
+      "paragraph8": "Svolgere la propria missione in modo responsabile, solidale e cooperativo con la società, i governi e le organizzazioni.",
+      "title8": "Imprenditorialità e Innovazione",
+      "paragraph9": "Promuovere il cambiamento attraverso un atteggiamento imprenditoriale.",
+      "title9": "Eccellenza",
+      "paragraph10": "Promuovere il miglioramento continuo delle attività accademiche, della gestione e della relazione con la società.",
+      "title10": "Sostenibilità",
+      "paragraph11": "Garantire che tutte le azioni siano sostenibili nelle dimensioni sociali, ambientali ed economiche.",
+      "title11": "Diversità e inclusione",
+      "paragraph12": "Promuovere l'educazione tecnologica rispettando e valorizzando la diversità e il potenziale di tutte le persone.",
+      "title12": "Democrazia e trasparenza",
+      "paragraph13": "Valorizzare la partecipazione democratica e la trasparenza in tutte le istanze della UTFPR, come impegni volti a rafforzare i processi di partecipazione della comunità universitaria ed esterna nella concezione, decisione, implementazione e valutazione delle azioni dell'Università."
+    },
+    "contactPage": {
+      "title": "Contattaci",
+      "form": {
+        "nameLabel": "Nome",
+        "namePlaceholder": "Inserisci il tuo nome",
+        "emailLabel": "Email",
+        "emailPlaceholder": "email@esempio.com",
+        "submitButton": "Invia",
+        "locationTitle": "Posizione della UTFPR - Toledo",
+        "messageLabel": "Messaggio",
+        "messagePlaceholder": "Scrivi qui il tuo messaggio...",
+        "successMessage": "Messaggio inviato con successo!"
+      }
+    },
+    "homePage": {
+      "title": "Pagina Iniziale",
+      "welcomeMessage": "Benvenuto nella pagina principale del nostro sito."
+    },
+    "newsPage": {
+      "firstNews": {
+        "title": "UTFPR firma una partnership da 39 milioni di R$ con una compagnia petrolifera cinese per ricerca tecnologica",
+        "description": "Il progetto sarà realizzato dal Nucleo di Flusso Multifase del Campus Curitiba"
+      },
+      "secondNews": {
+        "title": "La cerimonia di insediamento della Vice-Rettoria sarà il prossimo lunedì 30",
+        "description": "Nello stesso giorno si terrà anche l’insediamento del direttore generale del Campus Curitiba"
+      },
+      "thirdNews": {
+        "title": "Nota di cordoglio: José Sollak",
+        "description": "Dipendente in pensione della UTFPR è deceduto giovedì 26 giugno all'età di 76 anni"
+      },
+      "fourthNews": {
+        "title": "Ricercatore entra in un gruppo di scienziati che utilizza il più grande telescopio del mondo",
+        "description": "Felipe Ribas ha partecipato al lancio dell’Osservatorio Vera C. Rubin per presentare i suoi studi."
+      },
+      "fifthNews": {
+        "title": "Ricerca rivela che la produzione ecologica è la più redditizia per l’agricoltura familiare",
+        "description": "Lo studio ha confrontato aziende agricole che utilizzano il modello tradizionale con quelle che adottano l'agroecologia"
+      },
+      "sixtiethNews": {
+        "title": "La Proppg pubblica un bando inedito per la registrazione di borse esterne di Iniziazione Scientifica e Tecnologica",
+        "description": "L'iniziativa consentirà il riconoscimento istituzionale di questi borsisti"
+      },
+      "carousel": {
+        "prev": "Precedente",
+        "next": "Successivo"
+      }
+    },
+    "courses": {
+      "civil_eng": "Ingegneria Civile",
+      "comp_eng": "Ingegneria Informatica",
+      "biopro_eng": "Ingegneria di Bioprocessi e Biotecnologia",
+      "electro_eng": "Ingegneria Elettronica",
+      "math_lic": "Laurea in Matematica",
+      "chem_proc_tec": "Tecnologia in Processi Chimici",
+      "web_sys_tec": "Tecnologia in Sistemi per Internet",
+      "bachelor": "Laurea",
+      "licentiate": "Licenza",
+      "technologist": "Tecnologo"
     }
   }
 }

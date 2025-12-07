@@ -12,7 +12,6 @@ const props = withDefaults(
         descriptionKey?: string
         cardWidith?: string
         cardRound?: string
-        gap?: string
         margin?: string
     }>(), {
     imgSrcKey: '',
@@ -22,7 +21,6 @@ const props = withDefaults(
     descriptionKey: '',
     cardWidith: '20em',
     cardRound: '1em',
-    gap: '1em',
     margin: '1em',
     
 })
@@ -46,11 +44,11 @@ onMounted(async () => {
 <style scoped>
 
 .specs-card-grid {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    margin: v-bind(gap);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: v-bind(margin);
+    max-width: 1400px;
+    margin: 0 auto;
 }
+
 </style>
